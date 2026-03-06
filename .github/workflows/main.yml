@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'babasyira'
+        description: 'babasyiralaw'
         required: true
-        default: 'babasyira'
+        default: 'babasyiralaw'
       agent_description:
         description: 'babasyira'
         required: true
-        default: 'babasyira AI Agent'
+        default: 'babasyiralaw AI Agent'
 
 jobs:
   verify:
